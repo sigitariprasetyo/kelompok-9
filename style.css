@@ -127,7 +127,7 @@ div.kontenrizky {
     width: 1000px;
     min-width: 1000px;
     height: auto;
-    max-height: 460px;
+    max-height: 500px;
     padding: 30px;
     box-sizing: border-box
   }
@@ -138,13 +138,15 @@ div.kontenrizky {
     border: 10px solid #eedb6d;
     min-width: 400px;
     min-height: 400px;
+    position: relative;
+    top: 50px;
   }
   
   div.biorizky {
     color: #eedb6d;
     position: relative;
     left: 400px;
-    bottom: 300px;
+    bottom: 250px;
     width: auto;
     height: auto;
     max-width: 580px;
@@ -216,6 +218,8 @@ div.kontenrizky {
     height: 500px;
     border: solid 1px;
     background-color: rgb(245, 245, 239);
+    padding-top: 50px;
+    box-sizing: border-box;
 }
 
 #anggota4 div {
