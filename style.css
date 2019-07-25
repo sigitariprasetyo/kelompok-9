@@ -5,7 +5,9 @@ body {
     background-image: url(img/lilypads.png);
 }
 
+
 /* Bagian Header */
+
 .header {
     position: fixed;
     height: 60px;
@@ -54,12 +56,14 @@ li .dropdown {
 
 .isi-dropdown {
     position: absolute;
-	display: none;
-	z-index: 1;
-	background-color: rgb(219, 86, 33);
+    display: none;
+    z-index: 1;
+    background-color: rgb(219, 86, 33);
 }
 
+
 /* Bagian Container */
+
 .container {
     position: relative;
     margin: 100px auto 100px;
@@ -87,13 +91,16 @@ li .dropdown {
     line-height: 40px;
 }
 
+
 /* sigit */
+
 #anggota1 {
     padding: 30px;
     background-color: rgb(219, 212, 208);
     height: 500px;
     margin-top: 0;
 }
+
 .anggota1 img {
     width: 400px;
     height: 400px;
@@ -111,30 +118,61 @@ li .dropdown {
     clear: left;
 }
 
+
+/* robby */
+
+#anggota2 {
+    padding: 30px;
+    background-image: url(img/icon-pattern-backgrounds.jpg);
+    height: 500px;
+    margin-top: 0;
+    color: white;
+}
+
+.anggota2 img {
+    width: 400px;
+    height: 400px;
+    padding: 85px 30px 30px 20px;
+    float: right;
+}
+
+.anggota2 p {
+    font-size: 25px;
+    line-height: 35px;
+    padding-top: 85px;
+    font-family: sans-serif;
+}
+
+.clear {
+    clear: right;
+}
+
+
 /* Section Anggota 4 */
 
-#anggota4{
+#anggota4 {
     /* position: absolute; */
     left: 20%;
     width: 1000px;
     height: 500px;
     border: solid 1px;
-    background-color:rgb(245,245,239);
+    background-color: rgb(245, 245, 239);
 }
-#anggota4 div{
+
+#anggota4 div {
     display: inline-block;
     /* border: solid 1px; */
 }
 
-#anggota4 h1{
+#anggota4 h1 {
     border: 1px black;
     text-align: center;
     font-weight: bold;
 }
 
-#anggota4 #gambar{
-   /*  position: absolute; */
-   /* left: 530px;
+#anggota4 #gambar {
+    /*  position: absolute; */
+    /* left: 530px;
     top: 5%; */
     /* bottom: 30px; */
     float: right;
@@ -143,8 +181,8 @@ li .dropdown {
     padding: 30px;
 }
 
-#anggota4 #data{
-   /* position: absolute; */
+#anggota4 #data {
+    /* position: absolute; */
     top: 80px;
     left: 20px;
     line-height: 2;
@@ -152,29 +190,33 @@ li .dropdown {
     font-size: 167x;
     padding: 30px;
 }
+
+
 /* untuk message */
-#message{
-   /* position: relative;
+
+#message {
+    /* position: relative;
     top: 300px;
     left: 20%; */
     width: 1000px;
     height: 350px;
     border: solid 1px;
-    background-color:rgb(207,207,176);
-    font-family:"Varela Round", sans-serif;
+    background-color: rgb(207, 207, 176);
+    font-family: "Varela Round", sans-serif;
 }
-#message h1{
+
+#message h1 {
     text-align: center;
-    
 }
-#message h3{
-   /* position: relative;
+
+#message h3 {
+    /* position: relative;
     left: 20px; */
     padding: 0 30px;
 }
 
-#message #form{
-   /* position: relative;
+#message #form {
+    /* position: relative;
     left: 20px;
     top: 5px; */
     /* margin: 0 auto;
@@ -183,7 +225,9 @@ li .dropdown {
     padding: 0 30px;
 }
 
+
 /* Bagian Footer */
+
 .footer {
     position: relative;
     padding: 5px;
@@ -197,4 +241,3 @@ li .dropdown {
     font-size: 14px;
     line-height: 5px;
 }
-
