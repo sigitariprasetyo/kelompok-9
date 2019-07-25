@@ -1,0 +1,127 @@
+body {
+    margin: auto;
+    padding-top: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: url(img/lilypads.png);
+}
+
+/* Bagian Header */
+.header {
+    position: fixed;
+    height: 60px;
+    width: 100%;
+    margin-top: 0;
+    top: 0;
+    background-color: rgb(219, 86, 33);
+    z-index: 999;
+}
+
+.header h2 {
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 10px;
+    line-height: 60px;
+}
+
+.header .nav {
+    position: absolute;
+    right: 15px;
+}
+
+.nav a {
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+}
+
+.nav li {
+    display: inline-block;
+    padding: 10px;
+    color: #2874A6;
+}
+
+li .dropdown {
+    display: inline-block;
+}
+
+.dropdown:hover .isi-dropdown {
+    display: block;
+}
+
+.isi-dropdown a:hover {
+    color: black;
+}
+
+.isi-dropdown {
+    position: absolute;
+	display: none;
+	z-index: 1;
+	background-color: rgb(219, 86, 33);
+}
+
+/* Bagian Container */
+.container {
+    position: relative;
+    margin: 100px auto 100px;
+    display: block;
+    width: 1000px;
+    height: 1200px;
+    background-color: bisque;
+}
+
+.home {
+    padding: 30px;
+    background-color: azure;
+    height: 500px;
+    margin-bottom: 0;
+}
+
+.home h1 {
+    text-align: center;
+}
+
+.home p {
+    text-align: center;
+    padding: 10px 30px;
+    font-size: 25px;
+    line-height: 40px;
+}
+
+/* sigit */
+#anggota1 {
+    padding: 30px;
+    background-color: rgb(219, 212, 208);
+    height: 500px;
+    margin-top: 0;
+}
+.anggota1 img {
+    width: 400px;
+    height: 400px;
+    padding: 85px 30px 30px 20px;
+    float: left;
+}
+
+.anggota1 p {
+    font-size: 30px;
+    line-height: 35px;
+    padding-top: 85px;
+}
+
+.clear {
+    clear: left;
+}
+
+/* Bagian Footer */
+.footer {
+    position: relative;
+    padding: 5px;
+    background-color: rgb(219, 86, 33);
+    margin-top: 50px;
+}
+
+.footer h5 {
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    line-height: 5px;
+}
